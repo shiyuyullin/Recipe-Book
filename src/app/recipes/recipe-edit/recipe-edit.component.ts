@@ -44,7 +44,7 @@ export class RecipeEditComponent implements OnInit {
     else{
       this.recipeService.addRecipe(newRecipe);
     }
-    this.router.navigate(["recipe", this.id]);
+    this.router.navigate(["recipe"]);
   }
 
   onAddIngredient(){
